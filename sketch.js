@@ -23,7 +23,7 @@ function draw(){
     //To create ab iterative rotation
     scAngle = map(sc, 0, 60, 0, 360);
     mnAngle = map(mn,0,60,0,360)
-    hrAngle = 30+map(hr % 12,0,12,0,360)
+    hrAngle = map(hr % 12,0,12,0,360)
 
    
 
